@@ -1,23 +1,94 @@
 @import url(https://fonts.googleapis.com/css2?family=Nunito&display=swap%27);
 
 .Sidebar {
-    display: flex;
-    height: 100vh;
+    display: grid center;
+    height: 100%;
     background: #fafafa;
     width: 300px;
 }
 
 h1{     
        
-       text-align: center;
-       font-family: 'Nunito', sans-serif;
+    text-align: center; 
+    font-family: 'Nunito', sans-serif;   
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #727272;
+
 } 
 
-.avatar-fausto {
+h2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #727272;
+
+}
+.avatar-fausto{ /* imagem*/
 width: 90px;
 height: 90px;
 left: 123px;
 top: 85px;
 border-radius: 50%;
+display: flex;
+margin: 0 auto;
 
+}
+/* botao dashboard*/
+.button-dashboard{
+    color: #6A6A6A;
+    display: flex;
+    font-family:'Nunito', sans-serif;
+    height: 85px;
+    width: 101px;
+    left: 67px;
+    top: 302px;
+
+    margin-top: 100px;
+    style: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.button-dashboard a:link{
+    text-decoration: none;
+    color: #6A6A6A; /* sem sublinhado*/
+}
+.button-dashboard a: :visited{
+    color: #6A6A6A;
+    text-decoration: none;
+}
+/*botão cursos*/
+.button-courses{
+    color: #6a6a6a;
+    display: flex;
+    font-family:'Nunito', sans-serif;
+    width: 101px;
+    height: 20px;
+    left: 67px;
+    top: 362px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+   
+}
+.button-courses a: :visited{
+    color: #6a6a6a;
+    text-decoration: none;
+}
+.button-courses a:link{
+    text-decoration: none;
 }
