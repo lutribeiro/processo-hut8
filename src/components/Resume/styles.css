@@ -1,16 +1,16 @@
 .blocks{
     display: flex;
+    padding-top: 10px;
+    
 }
-
-
-
 
 .resume{
     color: #555555;
-    font-family: 'Nunito', sans-serif;
     font-size: 26px;
     top: 85px;
     left: 448px;
     width: 97px;
+    padding-top: 10px;
+    margin-left: 10px;
     height: 35px;
 }
