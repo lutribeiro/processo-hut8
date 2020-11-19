@@ -5,6 +5,7 @@ import Blocks from './Blocks/index'
 function index() {
     return (
         <div> 
+            
             <h1 className ="resume">Resumo</h1>
        <div className = "blocks">
             <Blocks number = "02" info="Cursos Matriculados" icon= "fas fa-graduation-cap"/>
