@@ -6,11 +6,12 @@ function index() {
     return (
         <div> 
             <h1 className ="resume">Resumo</h1>
-        <div className = "box">
-            <Blocks number = "02" info="Cursos Matriculados" icon= "far fa-graduation-cap"/>
-            <Blocks number = "02" info="Atividades próximas" icon= "far fa-tasks"/>
+       <div className = "blocks">
+            <Blocks number = "02" info="Cursos Matriculados" icon= "fas fa-graduation-cap"/>
+            <Blocks number = "02" info="Atividades próximas" icon= "fas fa-tasks"/>
             <Blocks number = "785" info="Alunos online" icon= "fas fa-user-graduate"/>
-        </div>
+     
+        </div>  
         </div>
     )
 }   
