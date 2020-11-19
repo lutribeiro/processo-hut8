@@ -1,0 +1,15 @@
+.box{
+    display: flex;
+}
+
+
+.resume{
+    color: #555555;
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    top: 75px;
+    left: 448px;
+    width: 97px;
+    height: 35px;
+}

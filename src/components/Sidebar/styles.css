@@ -50,22 +50,21 @@ margin: 0 auto;
     width: 101px;
     left: 67px;
     top: 302px;
-
+    text-decoration: none;
     margin-top: 100px;
-    style: normal;
+    /*font-style: normal;*/
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 110px;
     letter-spacing: 0em;
     text-align: left;
-    
 }
 .button-dashboard a:link{
     text-decoration: none;
     color: #6A6A6A; /* sem sublinhado*/
 }
-.button-dashboard a: :visited{
+.button-dashboard a:visited{
     color: #6A6A6A;
     text-decoration: none;
 }
@@ -79,13 +78,13 @@ margin: 0 auto;
     left: 67px;
     top: 362px;
     
-    font-style: normal;
+    /*font-style: normal;*/
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
    
 }
-.button-courses a: :visited{
+.button-courses a:visited{
     color: #6a6a6a;
     text-decoration: none;
 }
