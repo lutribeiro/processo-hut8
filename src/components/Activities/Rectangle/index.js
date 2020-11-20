@@ -5,9 +5,9 @@ function index (props){
     return (
       
         <div className = "rectangle">
-            {/* <div className = "image"> */}
-                {/* <a> <img>{props.image}</img> <a/> */}
-            {/* </div> */}
+             <div className = "image">
+                <img src ={props.image}/>
+            </div>
             <div className = "info-rectangle">
                 <div className="subject">
                     <h1>{props.subject}</h1>

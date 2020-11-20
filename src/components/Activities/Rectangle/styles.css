@@ -1,11 +1,10 @@
 .rectangle{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color:red;
+    flex-direction: column;
+    background-color: #fcfcfc;
     border-radius: 20px;
     width: 236px;
-    height: 221.6px;
+    height: 222px;
     margin-right: 20px;
   
 }
@@ -13,24 +12,28 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+  
 }
-.subject{
-    justify-content: space-between/;
+.subject h1{
+    margin-left: 5px;
     font-size: 10px;
     color: #737373;
 }
 
-.activity{
-    flex-wrap: nowrap;
-    font-size: 12px;
+.activity h2{
+    margin-left: 5px;
+    font-size: 8px;
     color: #4b4b4b;
 }
-.date{
+.date h3{
+    margin-left: 5px;
     color: #8e8e8e;
     font-size: 8px;
 }
-/* .image{ */
-    /* align-items: center; */
-    /* width: 236px; */
-    /* height: 139.6px; */
+.image img{
+    border-radius: 20px 20px 0px 0px;
+    align-items: center;
+    width: 100%;
+    left: 449px;
+    top: 337px; 
+}
