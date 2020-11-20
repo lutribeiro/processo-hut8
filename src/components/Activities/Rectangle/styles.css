@@ -1,0 +1,24 @@
+.rectangle{
+    display: flex;
+    background: #FCFCFC;
+    border-radius: 20px;
+
+}
+.info-rectangle{
+    display: flex;
+}
+.info-rectangle h1{
+    font-size: 10px;
+}
+
+.info-rectangle h2{
+    font-size: 12px;
+
+}
+.info-rectangle h3{
+    font-size: 8px;
+}
+/* .image{ */
+    /* align-items: center; */
+    /* width: 236px; */
+    /* height: 139.6px; */
