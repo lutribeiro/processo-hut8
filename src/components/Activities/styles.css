@@ -1,15 +1,12 @@
 /*Título "Próximas atividades*/
-.title{  
-    display: flex;
+.title{ 
+    flex-wrap: nowrap;
     font-size: 26px;
     color: #555555;
-    width: 237px;
-    height: 35px;
-    left: 448px;
-    top: 285px;
 }
 /*rectangle-box onde chamei os dois retangulos*/
 .rectangle-box{
         display: flex;
-        align-items: center;
+        justify-content: center;
+        
 }
