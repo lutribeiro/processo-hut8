@@ -1,0 +1,4 @@
+.dashboard2 {
+    display: grid;
+    grid-template-columns: 315px 1fr;
+}

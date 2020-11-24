@@ -17,5 +17,3 @@ function index (){
 }
 export default index
 
-// image = "https://i.imgur.com/aadwyfC.jpg"
-// image = "https://i.imgur.com/RgQrlAS.jpg" 

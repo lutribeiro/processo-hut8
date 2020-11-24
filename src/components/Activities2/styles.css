@@ -1,0 +1,18 @@
+/*Título "Próximas atividades*/
+.title h1{ 
+    font-size: 26px;
+    color: #555555;
+    /* column-width: 30px;  */
+    padding-top: 70px;
+    padding-bottom: 10px;
+    text-align: start;
+    margin-left: 80px;
+   
+}
+
+/*rectangle-box onde chamei os dois retangulos*/
+.rectangle-box{
+        display: flex;
+        justify-content: start;
+       
+}
