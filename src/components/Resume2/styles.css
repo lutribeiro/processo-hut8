@@ -1,31 +1,62 @@
 .blocks{
     display: flex;
-    padding-top: 100px;
+    top: 100px;
     padding-left: 50px;
 }
 .title{
     display: flex;
-    flex-direction: column;
-    justify-items: start;
+    align-items: start;
+    padding-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    flex-direction: row;
     
 }
 .resume{
-    color: #555555;
-    font-size: 26px;
-    /* top: 85px;
-    left: 448px;
-    width: 97px;
-    padding-top: 10px;
-    margin-left: 10px;
-    height: 35px; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
 }
-.class{
-    color: #555555;
-    font-size: #737373;
-    /* top: 100px;
-    left: 448px;
-    width: 97px;
-    padding-top: 10px;
+.resume h1{
+    color: #727272;
+    font-size: 26px;
+
+}
+.resume h2{ 
+    color: #727272;
+    font-size: 14px;
+    text-align: left;
+
+}
+.teacher{
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+
+}
+.teacher-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher-info h1{
+    font-size: 20px;
+    color: #727272;
+}
+
+.teacher-info p{
+    font-size: 14px;
+    color: #727272;
     margin-left: 10px;
-    height: 35px; */
+   
+}
+
+.teacher-picture{
+    border-radius: 50%;
+    width:48px;
+    height:48px;
+    /* text-align: center; */
+    justify-content: space-between;
 }

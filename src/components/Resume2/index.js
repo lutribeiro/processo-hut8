@@ -6,8 +6,17 @@ function index() {
     return (
         <div>
         <div className= "title">
-                <h1 className ="resume"> Algoritmos e Programação</h1>
-                <h2 className="class"> Turma M52</h2>
+                <div className="resume">
+                    <h1> Algoritmos e Programação</h1>
+                    <h2>Turma M52</h2>
+                </div>
+                <div className="teacher">
+                    <img class = "teacher-picture" src ="https://i.imgur.com/T2XCCkG.jpg" alt = "Avatar Luciano Hulk"></img>
+                    <div className="teacher-info">   
+                        <h1 class="teacher-name"> Luciano Hulk </h1>
+                         <p> Professor responsável</p>
+                    </div>
+                </div>
         </div>
         
 

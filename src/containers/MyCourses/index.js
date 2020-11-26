@@ -5,7 +5,7 @@ import Sidebar from '../../components/Sidebar'
 
 function index(){
     return(
-        <div className="dashboard2">
+        <div className="my-courses">
         
             <div>
                 <Sidebar name="Fausto Silva" course="Engenharia de Computação"></Sidebar>

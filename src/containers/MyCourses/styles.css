@@ -1,4 +1,4 @@
-.dashboard2 {
+.my-courses {
     display: grid;
     grid-template-columns: 315px 1fr;
 }
