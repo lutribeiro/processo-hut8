@@ -5,8 +5,8 @@
     border-radius: 20px;
     width: 236px;
     height: 222px;
-    margin-right: 5px;
-    margin-left: 80px;
+    margin-right: 40px;
+    /* margin-left: 80px; */
 }
 .info-rectangle2{
     display: flex;
@@ -20,9 +20,10 @@
     color: #737373;
 }
 
-.subject h2{
+.subject a{
+    text-decoration: none;
     margin-left: 5px;
-    font-size: 8px;
+    font-size: 10px;
     color: #4b4b4b;
 }
 .class h3{

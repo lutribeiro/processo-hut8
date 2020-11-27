@@ -43,27 +43,28 @@ margin-top: 60px;
 .button-dashboard{
     color: #6A6A6A;
     display: flex;
-    height: 85px;
-    width: 101px;
-    left: 67px;
-    top: 302px;
     text-decoration: none;
+    font-size: 18px;
     margin-top: 100px;
     margin-left: 70px;
-    font-size: 18px;
-    line-height: 110px;
-    letter-spacing: 0em;
-    text-align: left;
+    margin-bottom: 30px;
 }
 .button-dashboard a:link{
     text-decoration: none;
     color: #6A6A6A; /* sem sublinhado*/
 }
+
+.button-dashboard a:hover{
+    text-decoration: none;
+    color: #6A6A6A; /* sem sublinhado*/
+    cursor: pointer;
+}
+
 .button-dashboard a:visited{
     color: #6A6A6A;
     font-weight: bold;
-    /* text-decoration: none; */
 }
+
 
 /*botão cursos*/
 
@@ -71,14 +72,8 @@ margin-top: 60px;
     text-decoration: none;
     color: #6a6a6a;
     display: flex;
-    width: 101px;
-    height: 20px;
-    left: 67px;
-    top: 362px;
     margin-left: 70px;
     font-size: 18px;
-    line-height: 25px;
-   
 }
 .button-courses a:visited{
     color: #6a6a6a;
@@ -87,5 +82,9 @@ margin-top: 60px;
 }
 .button-courses a:link{
     text-decoration: none;
-    
+    /* font-weight: bold; */
+}
+.button-courses a:hover{
+    text-decoration: none;
+    cursor: pointer;
 }

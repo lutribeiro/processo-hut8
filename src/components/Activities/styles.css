@@ -1,11 +1,11 @@
 /*Título "Próximas atividades*/
-.title h1{ 
+.sub-title h1{ 
     font-size: 26px;
     color: #727272;
-    /* column-width: 30px;  */
-    padding-top: 100px;
-    padding-bottom: 10px;
-    text-align: start;
+    margin-left: 52px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: initial;    
    
 }
 
@@ -13,5 +13,6 @@
 .rectangle-box{
         display: flex;
         justify-content: start;
+        margin-left: 52px;
        
 }

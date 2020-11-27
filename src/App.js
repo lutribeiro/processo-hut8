@@ -10,17 +10,15 @@ function App() {
   return (
     <BrowserRouter>
        <div className="grid">
-      <Sidebar name="Fausto Silva" course="Engenharia de Computação"></Sidebar>
-        <Switch>
-            <Route path='/' exact component={Dashboard}/>
-            <Route path='/cursos' exact component={MyCourses}/>
-            <Route path='/curso' exact component={Subject}/>  
-       
-      </Switch> 
+        <Sidebar name="Fausto Silva" course="Engenharia de Computação"></Sidebar>
+          <Switch>
+              <Route path='/' exact component={Dashboard}/>
+              <Route path='/cursos' exact component={MyCourses}/>
+              <Route path='/curso/1' exact component={Subject}/>  
+        
+        </Switch> 
       </div>  
-    </BrowserRouter>
-      
-   
+    </BrowserRouter> 
   )
 }
 export default App

@@ -1,18 +1,21 @@
 /*Título "Próximas atividades*/
-.title h1{ 
+.title-activity h1{ 
+    display: flex;
     font-size: 26px;
-    color: #555555;
-    /* column-width: 30px;  */
-    padding-top: 70px;
-    padding-bottom: 10px;
-    text-align: start;
-    margin-left: 80px;
-   
+    color: #727272;
+    padding-top: 75px;
+    margin-bottom: 20px;
+}
+.activity2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 50px;
 }
 
 /*rectangle-box onde chamei os dois retangulos*/
 .rectangle-box{
         display: flex;
-        justify-content: start;
+        align-items: left;
        
 }

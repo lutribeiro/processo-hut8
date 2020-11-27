@@ -5,10 +5,10 @@ import Rectangle2 from './Rectangle2/index'
 
 function index (){
     return(
-        <div>
-            <div className = "title"> <h1>Meus cursos</h1> </div>
+        <div className="activity2">
+            <div className = "title-activity"> <h1>Meus cursos</h1> </div>
             <div className="rectangle-box">
-                <Rectangle2 image = "https://i.imgur.com/dSG2ZLX.jpg" graduate = "Graduação" subject =" Algoritmo e Programação" class = "M72"> </Rectangle2>
+                <Rectangle2 image = "https://i.imgur.com/dSG2ZLX.jpg" graduate = "Graduação" subject ="Algoritmo e Programação" class = "M72"> </Rectangle2>
                 <Rectangle2 image = "https://i.imgur.com/GpfCzWB.jpg" graduate = "Graduação" subject ="Projeto de Banco de Dados" class = "M52"> </Rectangle2>
             </div>
 

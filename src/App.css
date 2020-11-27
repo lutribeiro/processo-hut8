@@ -4,5 +4,5 @@ body{
 
 .grid{
   display: grid;
-  grid-template-columns: 315px 1fr;
+  grid-template-columns: 336px 1fr;
 }

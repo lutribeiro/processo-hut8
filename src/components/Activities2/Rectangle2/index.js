@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './styles.css'
 
 function index (props){
@@ -10,10 +11,10 @@ function index (props){
             </div>
             <div className = "info-rectangle2">
                 <div className="graduate">
-                    <h1>{props.graduate}</h1>
+                    <h1> {props.graduate}</h1>
                 </div>
                 <div className="subject">
-                    <h2>{props.subject}</h2>
+                <Link to='/curso/1'> {props.subject}</Link>
                 </div>
                 <div className="class">
                      <h3>{props.class}</h3>

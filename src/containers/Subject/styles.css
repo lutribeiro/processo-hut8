@@ -1,6 +1,6 @@
-.dashboard3 {
+.subject-page {
     display: grid;
-    grid-template-columns: 315px 1fr;
+    /* grid-template-columns: 315px 1fr; */
 }
 .rectangle-activity{
     display: flex;
@@ -11,7 +11,8 @@
     justify-content: space-between;
     /* padding-left: 50px; */
 }
-.next-activity h1{
-    color: #555555;
+.next-activity{
+    color: #727272;
+    margin-bottom: 10px;
 
 }

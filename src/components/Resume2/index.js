@@ -5,8 +5,8 @@ import Blocks2 from './Blocks2/index'
 function index() {
     return (
         <div>
-        <div className= "title">
-                <div className="resume">
+        <div className= "title-page3">
+                <div className="resume3">
                     <h1> Algoritmos e Programação</h1>
                     <h2>Turma M52</h2>
                 </div>
