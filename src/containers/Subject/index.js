@@ -1,17 +1,17 @@
 import React from 'react'
 import './styles.css'
-import Sidebar from '../../components/Sidebar'
+// import Sidebar from '../../components/Sidebar'
 import Resume2 from '../../components/Resume2'
 import Rectangle from '../../components/Activities/Rectangle/'
-
+import {link} from 'react-router-dom'
 
 
 function index(){
     return(
         <div className="dashboard3">
-            <div>
+            {/* <div>
                 <Sidebar name="Fausto Silva" course="Engenharia de Computação"></Sidebar>
-            </div>
+            </div> */}
             <div> 
                 <Resume2/>
                 <div className="rectangle-activity">  

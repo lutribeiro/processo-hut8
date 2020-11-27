@@ -1,17 +1,16 @@
 .blocks{
     display: flex;
-    padding-top: 10px;
+    padding-top: 50px;
     
 }
 
 .resume{
-    color: #555555;
+    color: #727272;
     font-size: 26px;
     top: 85px;
     left: 448px;
     width: 97px;
-    padding-top: 10px;
+    padding-top: 45px;
     margin-left: 10px;
     height: 35px;
-
 }
