@@ -6,3 +6,9 @@ body{
   display: grid;
   grid-template-columns: 336px 1fr;
 }
+
+p{
+  display: flex;
+  color: #727272;
+  justify-content: center;
+}

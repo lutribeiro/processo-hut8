@@ -3,7 +3,7 @@ import './styles.css'
 import Rectangle from './Rectangle/index'
 
 
-function index (){
+function Index (){
     return(
         <div>
             <div className = "sub-title"> <h1>Próximas atividades</h1> </div>
@@ -15,5 +15,5 @@ function index (){
         </div>
     )
 }
-export default index
+export default Index
 

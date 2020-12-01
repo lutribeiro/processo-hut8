@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.css'
 import Blocks2 from './Blocks2/index'
 
-function index() {
+function Index() {
     return (
         <div>
         <div className= "title-page3">
@@ -29,4 +29,4 @@ function index() {
     )
 }   
 
-export default index
+export default Index

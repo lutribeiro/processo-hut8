@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 
-function index (props){
+function Index (props){
     return (
       
         <div className = "rectangle">
@@ -22,4 +22,4 @@ function index (props){
         </div>
     )
 }
-export default index
+export default Index

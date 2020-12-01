@@ -3,13 +3,9 @@ import './styles.css'
 import Activities2 from'../../components/Activities2'
 import {Link} from 'react-router-dom'
 
-function index(){
+function Index(){
     return(
         <div className="my-courses">
-        
-            {/* <div>
-                <Sidebar name="Fausto Silva" course="Engenharia de Computação"></Sidebar>
-            </div> */}
             <div>
                 <Activities2 title="Meus cursos"/>
             </div>
@@ -17,6 +13,6 @@ function index(){
 
     )
 }
-export default index
+export default Index
 
 

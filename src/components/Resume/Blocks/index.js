@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 
-function index(props) {
+function Index(props) {
     return (
         <div className= "props-blocks">
             <div className= "info-blocks">
@@ -16,4 +16,4 @@ function index(props) {
     )
 }
 
-export default index
+export default Index

@@ -5,7 +5,7 @@ import Rectangle from '../../components/Activities/Rectangle/'
 
 
 
-function index(){
+function Index(){
     return(
         <div className="subject-page">
             <div> 
@@ -21,4 +21,4 @@ function index(){
 
     )
 }
-export default index
+export default Index

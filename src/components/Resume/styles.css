@@ -4,15 +4,16 @@
     
 }
 
-.title{
+.title-resume{
+    display: flex;
     color: #727272;
     font-size: 26px;
-    left: 448px;
-    width: 97px;
-    margin-left: 10px;
+    margin-left: 52px;
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 
-.resume{
-    align-content: initial;
-    
+.resume-dashboard{
+display: flex;
+flex-direction: column;  
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles.css'
 
-function index (props){
+function Index (props){
     return (
       
         <div className = "rectangle2">
@@ -23,4 +23,4 @@ function index (props){
         </div>
     )
 }
-export default index
+export default Index

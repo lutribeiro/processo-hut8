@@ -3,7 +3,7 @@ import './styles.css'
 import Resume from '../../components/Resume'
 import Activities from '../../components/Activities'
 
-function index (){
+function Index (){
     return(
         <div className="dashboard1">   
             <Resume/>
@@ -12,5 +12,5 @@ function index (){
         
     )
 }
-export default index
+export default Index
 
