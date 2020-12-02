@@ -1,0 +1,17 @@
+.subject-page2 {
+    display: grid;
+    /* grid-template-columns: 315px 1fr; */
+}
+.rectangle-activity2{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+    /* padding-left: 50px; */
+}
+.next-activity2{
+    color: #727272;
+    margin-bottom: 10px;
+}

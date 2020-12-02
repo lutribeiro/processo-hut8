@@ -1,32 +1,45 @@
-import React from 'react'
+import React, {useEffect, useState}  from 'react'
+import {getInfo} from '../../services/requests'
 import './styles.css'
 import Blocks2 from './Blocks2/index'
 
 function Index() {
+    const [courseData, setcourseData] = useState(null)
+  
+    useEffect(() =>{
+      getInfo().then((res) => {
+        setcourseData(res.data[0].courses)
+      })
+    }, [])
     return (
         <div>
-        <div className= "title-page3">
-                <div className="resume3">
-                    <h1> Algoritmos e Programação</h1>
-                    <h2>Turma M52</h2>
-                </div>
-                <div className="teacher">
-                    <img class = "teacher-picture" src ="https://i.imgur.com/T2XCCkG.jpg" alt = "Avatar Luciano Hulk"></img>
-                    <div className="teacher-info">   
-                        <h1 class="teacher-name"> Luciano Hulk </h1>
-                         <p> Professor responsável</p>
+        { courseData ? (
+        <>
+            <div className= "title-page3">
+                    <div className="resume3">
+                        <h1> {courseData[0].course}</h1>
+                        <h2>{courseData[0].class}</h2>
                     </div>
-                </div>
-        </div>
-        
+                    <div className="teacher">
+                        <img class = "teacher-picture" src ={courseData[0].teacher.avatar}  alt = "Avatar Luciano Hulk"></img>
+                        <div className="teacher-info">   
+                            <h1 class="teacher-name"> {courseData[0].teacher.name} </h1>
+                            <p> Professor responsável</p>
+                        </div>
+                    </div>
+            </div>
+            
 
-       <div className = "blocks">
-            <Blocks2 number = "01" info="Próximas atividades" icon= "fas fa-graduation-cap"/>
-            <Blocks2 number = "04" info="Créditos" icon="fas fa-tasks"/>
-            <Blocks2 number = "28" info="Alunos matriculados" icon= "fas fa-user-graduate"/>
+                <div className = "blocks">
+                    <Blocks2 number = {courseData[0].overview.nextActivities} info="Próximas atividades" icon= "fas fa-graduation-cap"/>
+                    <Blocks2 number = {courseData[0].overview.credits} info="Créditos" icon="fas fa-tasks"/>
+                    <Blocks2 number = {courseData[0].overview.enrolledStudents} info="Alunos matriculados" icon= "fas fa-user-graduate"/>
+                </div> 
+        </>
+        ) : (<p>Carregando...</p>)
+    }
         </div> 
-        </div> 
-    )
+     )
 }   
 
 export default Index

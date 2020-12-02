@@ -6,6 +6,7 @@ import './App.css'
 import Dashboard from './containers/Dashboard'
 import Sidebar from './components/Sidebar'
 import {getInfo} from './services/requests'
+import Subject2 from './containers/Subject2'
 
 function App() {
   const [info, setInfo] = useState(null)
@@ -24,7 +25,8 @@ function App() {
             <Switch>
               <Route path='/' exact component={Dashboard}/>
               <Route path='/cursos' exact component={MyCourses}/>
-              <Route path='/curso/1' exact component={Subject}/>       
+              <Route path='/curso/1' exact component={Subject}/>      
+              <Route path='/curso/2' exact component={Subject2}/> 
             </Switch> 
         </div>  
       ):(

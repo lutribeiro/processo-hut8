@@ -1,18 +1,40 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { getInfo } from '../../services/requests'
 import './styles.css'
 import Rectangle from './Rectangle/index'
 
 
 function Index (){
+    const [activityData, setactivityData] = useState(null)
+
+    useEffect(() => {
+        getInfo().then(res =>{
+            setactivityData(res.data[0].nextActivities)
+        })
+    }, [])
+
     return(
         <div>
             <div className = "sub-title"> <h1>Próximas atividades</h1> </div>
             <div className="rectangle-box">
-                <Rectangle image = "https://i.imgur.com/aadwyfC.jpg" subject = "Algoritmos e Programação" activity ="Enviar arquivo Peter Smoke" date = "20/11/2020"> </Rectangle>
-                <Rectangle image = "https://i.imgur.com/RgQrlAS.jpg" subject = "Projeto de Banco de Dados" activity ="Enviar o esquema MySQL" date = "20/11/2020"> </Rectangle>
-            </div>
+                { activityData ?    (
+                    <>
+                        <Rectangle image = {activityData[0].image} 
+                                   subject = {activityData[0].course} 
+                                   activity = {activityData[0].title} 
+                                   date = {activityData[0].deadline}/>
 
-        </div>
+                        <Rectangle 
+                                   image = {activityData[1].image} 
+                                   subject = {activityData[1].course} 
+                                   activity = {activityData[1].title}  
+                                   date= {activityData[1].deadline}/> 
+                    </>
+
+                ) :(<p>Carregado..</p>)
+                }
+                </div>
+            </div>
     )
 }
 export default Index

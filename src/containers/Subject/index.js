@@ -12,7 +12,7 @@ function Index(){
                 <Resume2/>
                 <div className="rectangle-activity">  
                     <h1 className="next-activity">Próximas atividades</h1>  
-                     <Rectangle image = "https://i.imgur.com/aadwyfC.jpg" subject = "Algoritmos e Programação" activity ="Enviar arquivo Peter Smoke" date = "20/11/2020"> </Rectangle>               
+                    <Rectangle image = "https://i.imgur.com/aadwyfC.jpg" subject = "Algoritmos e Programação" activity ="Enviar arquivo Peter Smoke" date = "20/11/2020"> </Rectangle>               
                 </div>
             </div>
             
