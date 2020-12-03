@@ -40,35 +40,26 @@ margin-top: 60px;
 }
 
 /* botao dashboard*/
-.button-dashboard{
+a.button-dashboard {
     color: #6a6a6a;
     margin-bottom: 25px;
     text-decoration: none;
-    
 }
 
-.button-dashboard a:hover{
+.active.button-dashboard{
     text-decoration: none;
-    cursor: pointer;
-}
-
-.button-dashboard a:visited{
     font-weight: bold;
 }
-
 
 /*botão cursos*/
-
-.button-courses{
+a.button-courses{
     color: #6a6a6a;
-    text-decoration: none;
-}
-.button-courses a:active{
-    font-weight: bold;
-}
-
-
-.button-courses a:hover{
     text-decoration: none;
     cursor: pointer;
 }
+.active.button-courses{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+

@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 function Sidebar (props){
     return (
@@ -11,12 +11,13 @@ function Sidebar (props){
                 <h1>{props.name}</h1> 
                 <h2>{props.course} </h2>
                 <div className= "buttons">
-                    <Link to='/' class="button-dashboard">Dashboard</Link>
-                    <Link to ='/cursos'class= "button-courses">Meus cursos</Link>
+                    <NavLink to='/' exact className='button-dashboard' activeClassName = 'active' >Dashboard</NavLink>
+                    <NavLink to ='/cursos' exact className= 'button-courses'  activeClassName = 'active' >Meus cursos</NavLink>
                 </div>
             </div>
          
         </div>
+
     )
 }
 export default Sidebar
