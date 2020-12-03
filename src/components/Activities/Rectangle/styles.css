@@ -16,12 +16,14 @@
 }
 .subject h1{
     margin-left: 5px;
+    margin-bottom: 5px;
     font-size: 10px;
     color: #737373;
 }
 
 .activity h2{
     margin-left: 5px;
+    margin-bottom: 5px;
     font-size: 10px;
     color: #4b4b4b;
 }

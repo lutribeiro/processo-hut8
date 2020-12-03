@@ -5,63 +5,54 @@
     height: 100vh;
     background: #fafafa;
     width: 300px;
-    padding-top: 10px;
 }
 
 h1{          
     text-align: center;  
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 27px;
-    letter-spacing: 0em;
     color: #727272;
 } 
 
 h2{
     text-align: center;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
     color: #727272;
-
 }
 .avatar-fausto{ /* imagem*/
 width: 90px;
 height: 90px;
-left: 123px;
-top: 85px;
 border-radius: 50%;
 display: flex;
 margin: 0 auto;
 margin-top: 60px;
 
 }
-/* botao dashboard*/
-.button-dashboard{
-    color: #6A6A6A;
-    display: flex;
-    text-decoration: none;
+/* buttons*/
+.buttons {
     font-size: 18px;
+    color: #6a6a6a;
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
     margin-left: 70px;
-    margin-bottom: 30px;
 }
-.button-dashboard a:link{
+
+/* botao dashboard*/
+.button-dashboard{
+    color: #6a6a6a;
+    margin-bottom: 25px;
     text-decoration: none;
-    color: #6A6A6A; /* sem sublinhado*/
+    
 }
 
 .button-dashboard a:hover{
     text-decoration: none;
-    color: #6A6A6A; /* sem sublinhado*/
     cursor: pointer;
 }
 
 .button-dashboard a:visited{
-    color: #6A6A6A;
     font-weight: bold;
 }
 
@@ -69,21 +60,14 @@ margin-top: 60px;
 /*botão cursos*/
 
 .button-courses{
+    color: #6a6a6a;
     text-decoration: none;
-    color: #6a6a6a;
-    display: flex;
-    margin-left: 70px;
-    font-size: 18px;
 }
-.button-courses a:visited{
-    color: #6a6a6a;
+.button-courses a:active{
     font-weight: bold;
-    text-decoration: none;
 }
-.button-courses a:link{
-    text-decoration: none;
-    /* font-weight: bold; */
-}
+
+
 .button-courses a:hover{
     text-decoration: none;
     cursor: pointer;

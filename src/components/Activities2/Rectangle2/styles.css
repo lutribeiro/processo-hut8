@@ -12,22 +12,20 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  
+    margin-left: 5px;
 }
 .graduate h1{
-    margin-left: 5px;
     font-size: 10px;
     color: #737373;
 }
 
 .subject a{
     text-decoration: none;
-    margin-left: 5px;
     font-size: 10px;
     color: #4b4b4b;
 }
+
 .class h3{
-    margin-left: 5px;
     color: #8e8e8e;
     font-size: 8px;
 }

@@ -14,8 +14,8 @@ function Index (props){
                     <h1> {props.graduate}</h1>
                 </div>
                 <div className="subject">
-                    <Link to='/curso/1'> {props.subject}</Link>
-                    <Link to='/curso/2'> {props.subject2}</Link>
+                    <Link to='/curso/1'>{props.subject}</Link>
+                    <Link to='/curso/2'>{props.subject2}</Link>
                 </div>
                 <div className="class">
                      <h3>{props.class}</h3>
